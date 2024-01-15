@@ -1,0 +1,94 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+    text-decoration: none;
+}
+.menu ul li a{
+    text-align: center;
+    background-color: red;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: #f1f1f1;
+    border-radius: 20%;
+    font-family: 'Mulish', sans-serif;
+
+}
+.menu ul{
+    list-style: none;
+}
+
+.header {
+    width: 100%; /* Use 100vw para ocupar 100% da largura da tela */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.content h1{
+    text-align: center;
+}
+.content table tr th{
+    text-align: center;
+    border: 1px solid black;
+}
+#descricao_menu{
+    text-align: left;
+}
+
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+#descricao{
+    color: aqua;
+    text-align: center;
+}
+#rodape{
+    text-align: center;
+    color:aliceblue
+}
+#rodape, h4{
+    color:black;
+    font-family: 'Mulish', sans-serif;
+}
